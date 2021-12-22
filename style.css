@@ -19,10 +19,36 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+    display: none;
 }
 
-.ansgrid-grid {
+.ansgrid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
+    margin: 20px 0;
+    
+}
+.ans-btn {
+    border: 1px; background-color:purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:white;
+    
+}
+
+.ans-btn:hover {
+    border-color: black;
+}
+.start-btn {
+    border: 1px; background-color: purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.ansgrid {
+    display: none;
 }

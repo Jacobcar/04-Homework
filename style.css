@@ -22,14 +22,14 @@ body {
     display: none;
 }
 
-.ansgrid {
+.quesgrid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 20px 0;
     
 }
-.ans-btn {
+.ques-btn {
     border: 1px; background-color:purple;
     border-radius: 5px;
     padding: 5px 10px;
@@ -37,7 +37,7 @@ body {
     
 }
 
-.ans-btn:hover {
+.ques-btn:hover {
     border-color: black;
 }
 .start-btn {
@@ -49,6 +49,19 @@ body {
     justify-content: center;
 }
 
-.ansgrid {
-    display: none;
+.quesgrid {
+  display: none; 
+}
+
+.next-btn-btn {
+    border: 1px; background-color:purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:white;
+}
+
+#time {
+    justify-content: right;
+    justify-content: top;
+    color: rgb(226, 43, 43);
 }
